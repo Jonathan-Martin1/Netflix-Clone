@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 import jumboData from './fixtures/jumbo'
-import Jumbotron from './components/jumbotron';
+import Jumbotron from './components/jumbotron'
 
 export default function App() {
   return (
@@ -13,7 +13,7 @@ export default function App() {
               <Jumbotron.SubTitle>{item.subtitle}</Jumbotron.SubTitle>
             </Jumbotron.Pane>
             <Jumbotron.Pane>
-            <Jumbotron.Image src={item.image} alt={item.alt} />
+              <Jumbotron.Image src={item.image} alt={item.alt} />
             </Jumbotron.Pane>
           </Jumbotron>
         ))}
@@ -21,4 +21,3 @@ export default function App() {
     </div>
   )
 }
-
